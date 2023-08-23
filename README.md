@@ -1,6 +1,5 @@
-DC-AKI
+A dual-channel deep learning approach to continuous prediction of acute kidney injury in the intensive care unit
 =====
-DC-AKI is a dual-channel CNN and GRU-based model for predicting AKI patients in the ICU
 ## Introduction
 DC-AKI employs dual-channel mechanism to extract features of temporal variables of EHR data at different granularity, comprehensively and accurately obtains effective information, and finally continuously predicting AKI risks for the patients. The CNN channel of the model calculates local interactions of the variables through CNN. While the GRU channel uses the GRU network and attention mechanism to obtain global interactions information among the variables. Finally, the model uses full connection layer to combine the representation vectors of the two channels, and uses Sigmoid
 classifier for prediction.
