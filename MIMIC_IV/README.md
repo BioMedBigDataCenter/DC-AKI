@@ -11,11 +11,11 @@ MIMIC
     * `rrt_admission.sql` 
     * `sedative_0721.sql`
 4. Run the scripts in the [data_preprocessing] folder sequentially  
-    * `get_data_from_postgres_1.ipynb`
-    * `data_preprocessing.ipynb`
-    * `get_data_from_postgres_2.ipynb`
+    * `get_data_from_postgres_1.py`
+    * `data_preprocessing.py`
+    * `get_data_from_postgres_2.py`
 
 ## Model
 1. Run the scripts in the [model] folder sequentially
-    * `DC_AKI.ipynb`
-    * `LSTM_RNN_GRU.ipynb`
+    * `DC_AKI.py`
+    * `LSTM_RNN_GRU.py`
